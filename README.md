@@ -14,6 +14,7 @@ There are two main functions in this package
     from sorted_months_weekdays import Month_Sorted_Month, Weekday_Sorted_Week
     
 # Example1
+```python
     samplemonthnames1 = ['Apr','Jan','Dec','Mar','Oct']
     samplemonthnames2 = ['December', 'January', 'June', 'March', 'September']
     
@@ -22,8 +23,9 @@ There are two main functions in this package
     
     Month_Sorted_Month(samplemonthnames2)
     Result: ['January', 'March', 'June', 'September', 'December']
-    
+```
 # Example2
+``` python
     testweeknames1 = ['Tue','Thu','Mon','Sun']
     testweeknames2 = ['Saturday','Tuesday','Friday','Monday']
     
@@ -32,5 +34,5 @@ There are two main functions in this package
     
     Weekday_Sorted_Week(testweeknames2)
     Result: ['Monday', 'Tuesday', 'Friday', 'Saturday']
-    
+```
 This function also handles lower and upper case and mixed case months and weekdays lists.
